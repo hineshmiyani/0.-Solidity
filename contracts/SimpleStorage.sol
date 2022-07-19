@@ -34,7 +34,7 @@ contract SimpleStorage {
     }
 
     /********** Pure Function: **********/
-    // It alos disallow read state from the contract 
+    // It also disallow read state from the contract 
     // It doesn't spend gas 
     // It disallow modification of state
     function add() public pure returns(uint256) {
